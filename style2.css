@@ -1,0 +1,71 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*  background: #000; */
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left ,rgba(191, 9, 170, 0.66),rgba(51, 128, 0, 0.556));
+}
+.inner-box{
+    width: 400px;
+    border: 2px     solid black ;
+    margin:auto;
+    position: relative;
+    top: 40%;
+    /* background-color: rgba(0, 128, 0, 0.421); */
+     transform: translateY(-50%); /*for height of inner box to comeby 50% */
+    padding: 20px 40px;
+    background: linear-gradient(to top right ,rgba(0, 30, 255, 0.236),rgba(124, 128, 0, 0.723));
+    backdrop-filter: blur(8px);    to make the portion in the back of box little vissible
+    z-index: 2;
+    overflow: auto;
+}
+.signup-header h1{
+    font-size: 2.3rem;
+    color: aquamarine;
+
+}
+.signup-header p{
+   font-size: 0.9rem;
+   color: rgb(195, 195, 19);
+   margin-top: 5px;
+
+}
+.signup-body{
+    margin: 20px 0px;
+}
+.signup-body p{
+    margin: 10px 0px;
+
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+
+        
+}
+.signup-body p input
+{ width: 100vw;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+    width: 99%;
+
+}
+.sign-body p input[type="submit"]
+{
+    background-color: rgba(0, 128, 0, 0.355);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+signup-footer p a{
+    color:aliceblue;
+
+}
